@@ -4,6 +4,7 @@ import Toggle from './components/Toggle'
 import Counter from './components/Counter'
 import Slideshow from './components/Slideshow'
 import Navbar from './components/Navbar'
+import API from './components/API'
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
               <Routes>
                     <Route path='/' element={<Toggle/>}  />
                     <Route path='/counter' element={<Counter/>}  />
-                    <Route path='/abc' element={<Slideshow/>}  />
+                    <Route path='/slide' element={<Slideshow/>}  />
+                    <Route path='/api' element={<API/>}  />
               </Routes>
          </BrowserRouter>
     </>
