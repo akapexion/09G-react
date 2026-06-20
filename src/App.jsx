@@ -6,6 +6,7 @@ import Slideshow from './components/Slideshow'
 import Navbar from './components/Navbar'
 import API from './components/API'
 import Data from './components/Data'
+import Products from './pages/Products'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path='/slide' element={<Slideshow/>}  />
                     <Route path='/api' element={<API/>}  />
                     <Route path='/data' element={<Data/>}  />
+                    <Route path='/products' element={<Products/>}  />
               </Routes>
          </BrowserRouter>
     </>
